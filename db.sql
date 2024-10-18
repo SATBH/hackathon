@@ -1,0 +1,1 @@
+-- postgres create table using info from schema.py
