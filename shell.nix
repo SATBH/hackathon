@@ -2,6 +2,7 @@
   packages = [
     pkgs.python3
     pkgs.python3Packages.fastapi
+    pkgs.python3Packages.celery
     pkgs.python3Packages.aiosmtplib
     pkgs.python3Packages.websockets
     pkgs.python3Packages.uvicorn

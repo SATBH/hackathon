@@ -33,7 +33,6 @@ class Usuario:
     data: Doctor | Paciente
 
 
-
 @dataclass
 class InfoRegistroPaciente:
     correo: str
