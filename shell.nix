@@ -9,5 +9,6 @@
     pkgs.python3Packages.pyjwt
     pkgs.python3Packages.passlib
     pkgs.python3Packages.bcrypt
+    pkgs.python3Packages.black
   ];
 }
