@@ -1,6 +1,11 @@
 # SomnoTech
 Backend para la aplicacion Somnotech desarrollada por el grupo TechSparks.
-Se encuentra escrito en fastapi con python 3.12
+Se encuentra escrito en fastapi con python 3.12. La base de datos principal
+esta escrita en postgresql, y la base de datos que manejara las mediciones del
+dipositivo en nosql para poder ofrecer un servicio en tiempo real usando estos datos.
+
+![Alt text](./logo.png)
+
 ## Requerimientos del backend
     Nix
 ## Como iniciar en desarrollo
