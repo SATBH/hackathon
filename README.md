@@ -1,5 +1,6 @@
 # SomnoTech
-Backend para la aplicacion Somnotech desarrollada por el grupo TechSparks
+Backend para la aplicacion Somnotech desarrollada por el grupo TechSparks.
+Se encuentra escrito en fastapi con python 3.12
 ## Requerimientos del backend
     Nix
 ## Como iniciar en desarrollo
@@ -21,3 +22,12 @@ Correr
 nix-build
 ```
 
+# Librerias en Uso
+* fastapi
+* smtplib
+* websockets
+* uvicorn
+* rich
+* pyjwt
+* passlib
+* bcrypt
