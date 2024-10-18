@@ -10,7 +10,7 @@ nix-shell
 Con esto accedera a una shell en el ambiente con las versiones de python y paquetes adecuada.
 Una vez hecho esto, corra
 ``` bash
-    fastapi dev main.py
+fastapi dev main.py
 ```
 para correr la aplicacion
 
@@ -18,6 +18,6 @@ para correr la aplicacion
 Correr
 
 ```bash
-    nix-build
+nix-build
 ```
 
