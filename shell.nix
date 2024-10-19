@@ -10,5 +10,7 @@
     pkgs.python3Packages.passlib
     pkgs.python3Packages.bcrypt
     pkgs.python3Packages.black
+    pkgs.python3Packages.celery
+    pkgs.redis
   ];
 }
