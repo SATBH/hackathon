@@ -69,6 +69,16 @@ class Doctor:
     pacientes: list[str] = field(default_factory=list)
 
 
+class EspecialidadesDoctores(Enum):
+    HEMATOLOGIA = 0
+    NEUROLOGIA = 1
+    ENDOCRINOLOGIA = 2
+    NUTRICIONISTA = 3
+    CARDIOLOGIA = 5
+    NEUMOLOGIA = 6
+    FISIOTERAPIA = 7
+
+
 @dataclass
 class Medicion:
     correo_paciente: str

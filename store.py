@@ -3,8 +3,6 @@ from datetime import date
 from security import obtener_hash_clave
 from typing import Callable, Any
 
-class SQlite:
-    pass
 
 subscriptions: list[(str, Callable[Medicion, Any])] = []
 
